@@ -14,6 +14,10 @@
 ```
 ## **การตั้งค่า Database**
 - ให้ import ไฟล์ tw_token.sql จากโฟลเดอร์ DB ลงใน Database ของคุณ
+## **การตั้งค่า Truewallet API**
+- ไฟล์ requestlogin.php กรอก email และ password ที่บรรทัด 4
+- ไฟล์ submitlogin.php กรอก email และ password ที่บรรทัด 16 และ กรอก เบอร์โทรศัพท์ ที่บรรทัด 17 
+- ไฟล์ access_token.php กรอก email และ password ที่บรรทัด 5
 ## **การตั้งค่า ตัว Cronjob**
 - ไปที่ CronjobAPIWallet/Program.cs และแก้ File Directory ให้ตรงกับที่เรา save ไว้ (ต้องตั้งที่บรรทัด 25 56 87)
 - เราสามารถแก้เวลาการเลี้ยง Token ได้โดยแก้เวลาที่บรรทัด 49 <i>หมายเหตู : 1000 = 1 วินาที ค่าเริ่มต้นที่ตั้งให้คือ 7 นาที</i>
