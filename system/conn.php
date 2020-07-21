@@ -1,6 +1,6 @@
 <?php
 
-$DB_Server = "127.0.0.1:3307";
+$DB_Server = "127.0.0.1";
 $DB_User = "root";
 $DB_Password = "";
 $DB_Name = "tw_token";
