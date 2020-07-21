@@ -3,8 +3,8 @@
 # วิธีการใช้งาน
 
 <h3><b>การตั้งค่า ตัว GetOtpTruewalletAuto</b></h3>
-- ไปตั้งค่า Token ที่ getotp/readsms.php บรรทัดที่ 4 <i>หมายเหตู : Token สามารถหาได้จาก </i>[PushBullet](https://www.pushbullet.com/)
-- หลังจากตั้งค่า Token แล้วไปที่ submitlogin.php แล้วตั้งค่า $iden // เราต้อง print_r($sms->DevicesList()) ก่อนเพื่อดู Devices เเล้วทำการเเก้ไขเลข array ให้ตรง <i>หมายเหตู : ถ้าบัญชีเชื่อมแค่ 1 Devices สามารถข้ามขั้นตอนนี้ได้เลย</i>
+- ไปตั้งค่า Token ที่ getotp/readsms.php บรรทัดที่ 4 <b><i>หมายเหตู : Token สามารถหาได้จาก </i>https://www.pushbullet.com/</b></br>
+- หลังจากตั้งค่า Token แล้วไปที่ submitlogin.php แล้วตั้งค่า $iden // เราต้อง print_r($sms->DevicesList()) ก่อนเพื่อดู Devices เเล้วทำการเเก้ไขเลข array ให้ตรง <b><i>หมายเหตู : ถ้าบัญชีเชื่อมแค่ 1 Devices สามารถข้ามขั้นตอนนี้ได้เลย</i></b></br>
 โค๊ดสำหรับดู Array ของ Devices (แนะนำให้สร้างไฟล์ .php ใหม่เพื่อดู)
 ```php
 <?php
