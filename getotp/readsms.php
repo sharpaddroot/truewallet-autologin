@@ -1,7 +1,7 @@
 <?php
 
 Class ReadSMS{
-    public $access_token = 'o.IyDRBeGNdaskJDpGFIUiBv3ZSsLdBIUJ';
+    public $access_token = 'กรอก Token ที่นี่';
     
     public function CreateHeaders ($array) {
 		$headers = array();
