@@ -13,8 +13,8 @@
   $ref = $data["ref"];
   $otp = $data["otp_code"];
 
-  $tw = new TrueWalletClass("0906571766pumzsp@truemoneywallet.com", "o871651277");//Login
-  $result = $tw->SubmitLoginOTP($otp, "0906571766", $ref);
+  $tw = new TrueWalletClass("กรอก email", "กรอก password");//Login
+  $result = $tw->SubmitLoginOTP($otp, "กรอก เบอร์โทรศัพท์", $ref);
 
   if($result['data']['access_token'] != null){
     $access_token = $result['data']['access_token'];
