@@ -46,7 +46,7 @@ namespace CronjobAPIWallet
                             goto requestotp;
                         }
                     }
-                    Thread.Sleep(30000);
+                    Thread.Sleep(420000);
                 }
 
 
