@@ -22,7 +22,7 @@ namespace CronjobAPIWallet
                 while (true)
                 {
                     string html = string.Empty;
-                    string url = @"http://127.0.0.1:9080/class-truewallet-autologin/access_token.php";
+                    string url = @"http://127.0.0.1/class-truewallet-autologin/access_token.php";
 
                     HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
                     request.AutomaticDecompression = DecompressionMethods.GZip;
@@ -53,7 +53,7 @@ namespace CronjobAPIWallet
 
         requestotp:
             string login = string.Empty;
-            string send_otp = @"http://127.0.0.1:9080/class-truewallet-autologin/requestlogin.php";
+            string send_otp = @"http://127.0.0.1/class-truewallet-autologin/requestlogin.php";
 
             HttpWebRequest requestotp = (HttpWebRequest)WebRequest.Create(send_otp);
             requestotp.AutomaticDecompression = DecompressionMethods.GZip;
@@ -84,7 +84,7 @@ namespace CronjobAPIWallet
 
         submitotp:
             string revice_code = string.Empty;
-            string revice_otp = @"http://127.0.0.1:9080/class-truewallet-autologin/submitlogin.php";
+            string revice_otp = @"http://127.0.0.1/class-truewallet-autologin/submitlogin.php";
 
             HttpWebRequest submittoken = (HttpWebRequest)WebRequest.Create(revice_otp);
             submittoken.AutomaticDecompression = DecompressionMethods.GZip;
