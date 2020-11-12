@@ -10,8 +10,8 @@ namespace CronjobAPIWallet
         static void Main(string[] args)
         {
             int count = 0;
-            Console.Title = "[Cronjob] -> TRUEWALLET AUTO LOGIN BY NAVyDESIGn";
-            Console.WriteLine("[---TRUEWALLET AUTO LOGIN BY NAVyDESIGn---]");
+            Console.Title = "[Cronjob] -> TRUEWALLET AUTO LOGIN BY HyperStudio";
+            Console.WriteLine("[---TRUEWALLET AUTO LOGIN BY HyperStudio---]");
             Thread.Sleep(1000);
             goto requestotp;
 
