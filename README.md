@@ -26,5 +26,5 @@
 
 ## ขอขอบคุณ
 **GetOtpTruewalletAuto** จาก https://github.com/ekkamon/GetOtpTruewalletAuto </p>
-**มีปัญหาติดต่อได้ที่Facebook : https://www.facebook.com/nanydesignpage </br>
+**มีปัญหาติดต่อได้ที่Facebook : https://www.facebook.com/pagehyperstudio </br>
 "หมายเหตู : ทำมาแจกฟรีห้ามนำไปจำหน่ายนะจ๊ะ"**
