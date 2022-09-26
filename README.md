@@ -1,4 +1,4 @@
-# truewallet-autologin พัฒนาโดย  NAVyDESIGn
+# truewallet-autologin (ไม่สามารถใช้งานได้แล้ว)
 # วิธีการใช้งาน
 ## **การตั้งค่า ตัว GetOtpTruewalletAuto**
 - ไปตั้งค่า Token ที่ getotp/readsms.php บรรทัดที่ 4 **<i>หมายเหตู : Token สามารถหาได้จาก </i>[PushBullet](https://www.pushbullet.com/)**
